@@ -87,3 +87,8 @@ for (i in 1:99) {
 
 ```
 
+```{r}
+layers <- sf::st_layers('//floridadep/data/DRP/GIS/statewidecoverages/FloridaStateParksGIS.gdb')
+layers$name |> sort()
+```
+
