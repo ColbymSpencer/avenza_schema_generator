@@ -1,0 +1,89 @@
+---
+title: "avenza_schema_generator"
+format: html
+editor: source
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r}
+library(tidyverse)
+# library(sf)
+
+trails_raw <- sf::st_read('//floridadep/data/DRP/GIS/statewidecoverages/FloridaStateParksGIS.gdb', layer = 'Trails_Statewide')
+
+trails <- trails_raw |> 
+  as.data.frame() |> 
+  # select(-Shape) |>
+  select(where(~n_distinct(.) < 50))
+```
+
+```{r}
+n <- 0
+extended_data <- '\t<ExtendedData xmlns:avenza="http://www.avenza.com">\n'
+
+for (field in names(trails)) {
+  n = n + 1
+  if (n == 1) {
+    extended_data = paste0(extended_data,'\t\t\t    <avenza:picklist schemaUrl="schema0" avenza:field="', field,'">\n' )
+  } else {
+    extended_data = paste0(extended_data, '\t  </avenza:picklist>\n', '\t    <avenza:picklist schemaUrl="schema0" avenza:field="', field,'">\n' )
+  }
+  
+  
+  for (value in trails |>
+       select(n) |>
+       distinct() |>
+       pull(1)) {
+    
+    extended_data = paste0(
+      extended_data,
+      '\t\t  <avenza:picklistvalue><![CDATA[',
+      value,
+      ']]></avenza:picklistvalue>\n' )
+  }
+}
+extended_data = paste0(extended_data, '\t  </avenza:picklist>\n\t</ExtendedData>')
+readr::write_lines(extended_data, 'extended_data.txt')
+```
+
+```{r}
+y <- 'use'
+
+distinct(trails, use)
+distinct(trails, !! y)
+trails |>
+  as.data.frame() |>
+  count(!! y, sort = TRUE) |>
+  pull(name)
+
+count(as.data.frame(trails), name)
+
+trails |>
+  as.data.frame() |>
+  select(n) |>
+  distinct()
+
+trails |>
+  select(where(~n_distinct(.) < 50)) |> 
+  names()
+
+trails |>
+       select(1) |>
+       distinct() |>
+  pull(1)
+       arrange(desc())
+```
+
+```{r}
+for (i in 1:99) {
+  print(10000)
+  for (j in 100800:100899) {
+    print(0)
+  }
+
+}
+
+```
+

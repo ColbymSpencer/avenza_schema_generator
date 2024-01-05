@@ -1,0 +1,163 @@
+	<ExtendedData xmlns:avenza="http://www.avenza.com">
+			    <avenza:picklist schemaUrl="schema0" avenza:field="USE">
+		  <avenza:picklistvalue><![CDATA[Hiking]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Hiking/Biking/Equestrian]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Biking]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Nature]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Hiking/Biking]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Equestrian]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Paddling]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Other]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Hiking/Equestrian]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Walkway]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Fitness]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Biking/Equestrian]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="SURFACE">
+		  <avenza:picklistvalue><![CDATA[Natural]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Unknown]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Water]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Stabilized]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Boardwalk]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Asphalt]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Paved]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Crushed Limestone]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Gravel]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Concrete]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Unpaved]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="ACCESSIBILITY">
+		  <avenza:picklistvalue><![CDATA[No]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NO]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Yes]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[UnK]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[ADA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="WATER">
+		  <avenza:picklistvalue><![CDATA[None]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Unknown]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Potable]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Saltwater]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Fresh]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Freshwater]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Yes]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Y]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[ None]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[ ]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="FTA_FNST">
+		  <avenza:picklistvalue><![CDATA[Unknown]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[FTA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[FNST]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[No]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="WIDTH">
+		  <avenza:picklistvalue><![CDATA[10]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[6]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[5]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[8]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[3]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[4]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[7]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[0]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[12]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[14]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[15]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[2]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[16]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[18]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[20]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[3903]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[2156]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1466]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[2419]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[9]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="CREATOR">
+		  <avenza:picklistvalue><![CDATA[NEUSE_A]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NIEMINEN_M]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[HARRISON_B]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[WILLIAMS_AJ]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[DRP]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[ ]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[JONES_AE]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Copland_K]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[WEISENBORN_H]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[EDWARDS_RS]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[RICHARDS_J]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[FLPARKSGIS]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[RICHARDS_JEL]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="CR_DATE">
+		  <avenza:picklistvalue><![CDATA[1513289728]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1560441129]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1560441130]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1561124524]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1561579895]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1561643215]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1561665704]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1561744391]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1561755265]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1561755266]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1563992334]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1563992629]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1564069164]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1564069191]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1564070836]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1564073134]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1564074436]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1565193077]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1565195523]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1513209600]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1610630128]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1609286400]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1609200000]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1560462739]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1621950244]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1621951304]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1449176027]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1667901028]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1674028800]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1683726610]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1684873602]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1684935675]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1686163739]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1689097761]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1689182964]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1697117834]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1700593100]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="EDITOR">
+		  <avenza:picklistvalue><![CDATA[RICHARDS_JEL]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[HARRISON_B]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NEUSE_A]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[ ]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[JONES_AE]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="ED_DATE">
+		  <avenza:picklistvalue><![CDATA[1686338733]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1697117834]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1700593590]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1700593100]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1700593630]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1689271437]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1689097761]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1689182964]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1697118666]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1564963200]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[1663891200]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	    <avenza:picklist schemaUrl="schema0" avenza:field="VERIFIED">
+		  <avenza:picklistvalue><![CDATA[NA]]></avenza:picklistvalue>
+		  <avenza:picklistvalue><![CDATA[Yes]]></avenza:picklistvalue>
+	  </avenza:picklist>
+	</ExtendedData>
