@@ -11,15 +11,38 @@ editor_options:
 library(tidyverse)
 # library(sf)
 
-trails_raw <- sf::st_read('//floridadep/data/DRP/GIS/statewidecoverages/FloridaStateParksGIS.gdb', layer = 'Trails_Statewide')
+trails_raw <- sf::st_read('c:/users/Spencer_C/Documents/Campsite_Colby/FloridaStateParksGIS_Copy.gdb', layer = 'Trails_Statewide')
 
-trails <- trails_raw |> 
+park_boundaries <- sf::st_read('c:/users/Spencer_C/Documents/Campsite_Colby/FloridaStateParksGIS_Copy.gdb', layer = 'Park_Boundaries_Statewide') |>
+  as_tibble()
+
+
+view(trails_raw)
+# trails_raw <- sf::st_read('//floridadep/data/DRP/GIS/statewidecoverages/FloridaStateParksGIS.gdb', layer = 'Trails_Statewide')
+
+# select what trails to make pick lists for
+trails <-
+  trails_raw |> 
   as.data.frame() |> 
-  # select(-Shape) |>
-  select(where(~n_distinct(.) < 50))
+  select(where(~n_distinct(.) < 50)) |>
+    names()
 ```
 
-```{r}
+```{r explore}
+sapply(trails_raw, function(x) {
+  uniq <- unique(x)
+  if (length(uniq) < 35)
+    uniq_values = uniq
+  else
+    length(uniq)
+})
+
+park_boundaries |>
+  filter(grepl('Wakulla', SITE_NAME)) |>
+  view()
+```
+
+```{r extended data}
 n <- 0
 extended_data <- '\t<ExtendedData xmlns:avenza="http://www.avenza.com">\n'
 
@@ -90,5 +113,6 @@ for (i in 1:99) {
 ```{r}
 layers <- sf::st_layers('//floridadep/data/DRP/GIS/statewidecoverages/FloridaStateParksGIS.gdb')
 layers$name |> sort()
+layers[name]
 ```
 
